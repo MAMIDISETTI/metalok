@@ -1,0 +1,30 @@
+###
+
+POST http://localhost:3000/register/
+Content-Type: application/json
+
+{   
+    "first_name":"sairam",
+    "last_name":"sairam143",
+    "email": "sairam@2021",
+    "hashedPassword": "sairam",
+}
+
+
+###
+
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+    "email":"sairam@2021",
+    "password": "sairam"
+}
+
+###
+POST http://localhost:3000/template/
+{
+    "template_name" : "sai",
+    "subject": "hello world",
+    "body": "this is a template"
+}
